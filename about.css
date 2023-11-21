@@ -1,55 +1,164 @@
-.footer{
+.header{
     display: block;
-    background-color: rgb(35, 35, 112);
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    padding-bottom: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: 1;
+    z-index: 2000;
 }
-.location{
+.header-div{
+    padding-bottom: 10px;
+    width: 100% !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    z-index: 1000;
+    background-color: rgb(254, 254, 254);
+    
+}
+.label-div{
     display: inline-block;
+    margin-right: 500px;
 }
-.location-text{
-    display: inline-block;
-    color: white;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 50px;
-    font-size: 13px;
-    vertical-align: top;
-
-}
-.footer-menu{
+.header-icon{
+    width: 70px;
     display: inline-block;
     vertical-align: middle;
-}
-.footer-menu-text{
-    color: white;
-    margin-top: 150px;
-    vertical-align: top;
+    margin-right: 0%;
 
 }
-.footer-vertical-line{
-    border-left: 2px solid rgb(253, 253, 253);
-    height: 130px;
+.UG-tag1{
+        display: inline-block;
+        margin-left: 0px;
+        font-size: 20px;
+        font-weight: bolder;
+        color: rgb(35, 8, 104);
+        vertical-align: middle;
+    }
+.UG-tag2{
     display: inline-block;
-    margin-left: 100px;
-    margin-right: 20px;
-    vertical-align: bottom;
-    padding-top: 20px;
+    width: 150px;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgb(36, 4, 92);
+    vertical-align: middle;
 }
- .footer-vertical-line2{
-    border-left: 2px solid rgb(253, 253, 253);
-    height: 130px;
+.header-nav{
     display: inline-block;
-    margin-left: 100px;
-    margin-right: 20px;
-    vertical-align: bottom;
-    padding-top: 20px;
-}    
-.footer-admissions{
-    display: inline-block;
-    vertical-align: bottom;
+    vertical-align: middle;
+    
+    
 }
-.footer-admissions-list{
+.header-nav-list{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.nav-bar{
+    float: right;
+}
+.section1{
     display: inline-block;
-    color: white;
-    vertical-align: bottom;
+    position: relative;
+    width: 1250px;
+    height: 600px;
+   
+    
+}
+.section-image{
+    width: 100%;
+    height: 100%; 
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+    z-index: -1;
+}
+.nested-div-in-section1{
+    position: absolute;
+    float: left;
+      top: 75%;
+      left: 15%;
+      background-color: rgba(255, 255, 255, 1);
+      border-top: 8px solid rgba(5, 19, 109, 0.8);
+      border-left: 8px solid rgba(5, 19, 109, 0.8);
+      width: 200px;
+      height: 40px;
+      padding: 20px;
+      z-index: 1;
+}
+.section1-text{
+    position: relative;
+    top: -35px;
+    font-size: 35px;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+}
+.plain-text{
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 200px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trirong', serif;
+    color: rgba(5, 16, 90, 0.8);
+}
+.plain-div{
+    margin-top: 70px;
+    display: inline-block;
+    width: 550px;
+    margin-left: 150px;
+}
+.text-in-plain-div{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: rgb(114, 114, 114);
+    display: inline;
+}
+.section3-image1{
+    position: relative;
+    top: -70px;
+    left: 22px;
+    display: inline-block;
+    width: 600px;
+    
+}
+.section3-image{
+    width: 100%;
+}
+.section3-text1{
+    position: relative;
+    top: -70px;
+    left: 18px;
+    padding-top: 380px;
+    display: inline-block;
+    width: 600px;
+    background-color: rgb(198, 161, 40);
+}
+.section3_2{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    left: 622px;
+    top: -90px;
+}
+.section3-image_2{
+    max-width: none;
+    max-height: none;
+    width: 100%;
+}
+.section3-text2{
+    display: inline-block;
+   width: 500px;
+   background-color: rgb(9, 9, 121);
+   position: relative;
+   left: -600px;
+   top: 300px;
+   padding-top: ;
+
 }
