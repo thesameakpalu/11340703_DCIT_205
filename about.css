@@ -57,6 +57,14 @@
     margin: 0px;
     padding: 0px;
 }
+
+.header-link{
+    color: black;
+}
+.header-link:hover{
+    cursor: pointer;
+    
+}
 .nav-bar{
     float: right;
 }
@@ -133,19 +141,19 @@
 }
 .section3-text1{
     position: relative;
-    top: -70px;
+    top: -55px;
     left: 18px;
-    padding-top: 380px;
+    padding-top: 275px;
     display: inline-block;
     width: 600px;
     background-color: rgb(198, 161, 40);
 }
-.section3_2{
+.section3-image2{
     width: 600px;
     display: inline-block;
     position: relative;
-    left: 622px;
-    top: -90px;
+    left: 18px;
+    top: -193px;
 }
 .section3-image_2{
     max-width: none;
@@ -153,12 +161,72 @@
     width: 100%;
 }
 .section3-text2{
+    position: relative;
+    top: -376px;
+    left: 22px;
+    height: 312px;
     display: inline-block;
-   width: 500px;
-   background-color: rgb(9, 9, 121);
-   position: relative;
-   left: -600px;
-   top: 300px;
-   padding-top: ;
+    width: 600px;
+    background-color: rgb(9, 9, 77);
+}
+.section3-text{
+    position: relative;
+    left: 50px;
+    top: -200px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Trirong', serif;
+    padding: 0%;
+    margin: 0%;
+}
+.sec3-link{
+    color: rgb(230, 229, 229);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sec3-link:hover{
+    text-decoration: underline;
+}
+.section3-text_2{
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    color: white;
 
+}
+.sec3-link2{
+    color: rgb(230, 229, 229);
+    font-size: 19px;
+    text-decoration: none;
+}
+.sec3-link2:hover{
+    text-decoration: underline;
+}
+.join-us{
+    background-color: rgb(198, 161, 40);
+    width: 800px;
+    position: relative;
+    top: -250px;
+    left: 250px;
+    padding: 25px;
+}
+.email{
+    position: relative;
+    top: -15px;
+    left: 60px;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 25px;
+    color: white;
+    font-style: normal;
+}
+.submit-button{
+    position: absolute;
+    border-style: none;
 }
