@@ -1,0 +1,86 @@
+.top-image-div{
+position: relative;
+top: 90px;  
+width: 1100px;
+height: 400px;
+}
+.top-image-container{
+    width: 1100px;
+    height: 400px;
+    margin-left: 70px;
+}
+.top-image{
+width: 100%;
+height: 100%;
+}
+.cover-div{
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 44, 0.6);
+}
+.text-in-banner{
+    display: inline;
+    position: absolute;
+    color: white;
+    z-index: 500;
+    left: 450px;
+    top: 100px;
+    font-size: 60px;
+    font-family: 'Trirong', serif;
+    font-weight: bolder;
+
+}
+.dean-profile{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    font-size: 30px;
+    color: rgb(105, 104, 104);
+}
+.dean-img{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+.dean-profile-details{
+    width: 700px;
+    position: relative;
+    left: 400px;
+    top: -250px;
+    font-size: 20px;
+    margin-right: 0;
+    font-family: 'Vollkorn', serif;
+
+}
+.gallery{
+    position: relative;
+    top: -250px;
+    left: 500px;
+    font-size: 60px;
+    font-family: 'Vollkorn', serif;
+    padding-right: 0;
+    margin-right: 0;
+}
+.gallery-images{
+    width: 1250px;
+    height: 400px;
+    position: relative;
+    top: -300px;
+    left: 25px;
+}
+.pic{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 12px;
+    width: 390px;
+    height: 350px;
+}
+.pic:hover{
+    width: 410px;
+    height: 360px;
+}
