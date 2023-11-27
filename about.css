@@ -60,6 +60,7 @@
 
 .header-link{
     color: black;
+    text-decoration: none;
 }
 .header-link:hover{
     cursor: pointer;
