@@ -84,3 +84,10 @@ height: 100%;
     width: 410px;
     height: 360px;
 }
+.view-more{
+    position: relative;
+    top: -310px;
+    left: 600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
