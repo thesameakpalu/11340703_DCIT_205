@@ -371,3 +371,7 @@
     color: white;
     vertical-align: bottom;
 }
+.footer a{
+    color: white;
+    text-decoration: none;
+}
