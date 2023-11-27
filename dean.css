@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(35, 35, 112);
+}
+.deans-profile-page{
+    position: relative;
+    top: 40px;
+    left: 450px;
+    color:  white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.DeansProfile{
+    color: white;
+    width: 900px;
+    position: relative;
+    top: -350px;
+    left: 300px;
+}
+.DeansProfileCont{
+    position: relative;
+    top: -340px;
+    color: white;
+}
